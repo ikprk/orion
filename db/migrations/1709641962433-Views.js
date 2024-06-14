@@ -71,7 +71,7 @@ ldt_oldest_transactions AS (
     WHERE created_in <= (SELECT height FROM squid_processor.status) - ${7 * BLOCKS_PER_DAY} 
     GROUP BY amm_id
 `
-
+  console.log('test')
     const marketplaceTokensViewQuery = `
 ${ammVolumeCte}
 ${priceChangeCtes}
