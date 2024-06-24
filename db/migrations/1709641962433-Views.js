@@ -1,13 +1,8 @@
 
 const { getViewDefinitions } = require('../viewDefinitions')
 
-<<<<<<<< HEAD:db/migrations/1719855101957-Views.js
-module.exports = class Views1719855101957 {
-  name = 'Views1719855101957'
-========
-module.exports = class Views1719227204486 {
-  name = 'Views1719227204486'
->>>>>>>> 71c4997 (Running `custom-migration` command):db/migrations/1719227204486-Views.js
+module.exports = class Views1709641962433 {
+  name = 'Views1709641962433'
 
   async up(db) {
     // these two queries will be invoked and the cleaned up by the squid itself
